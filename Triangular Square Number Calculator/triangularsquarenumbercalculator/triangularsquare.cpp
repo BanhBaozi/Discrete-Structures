@@ -13,23 +13,23 @@ int addUpto(int n){
 	return total;
 }
 
-bool isSquare(int n){
+bool isSquare(int x){
 
-	double sqr = sqrt(n);
+	double sqr = sqrt(x);
 	return ((sqr - floor(sqr)) == 0);
 }
 //main function 
 
 int main(){
 	int inc = 1;
-	int i=1;
+	int y=1;
 	while(inc<=COUNT){
-		int total = addUpto(i);
+		int total = addUpto(y);
 		if(isSquare(total)){
 			cout << "Square Triangular Number " << inc << " is: "<< total <<endl;
 			inc+=1;
 		}
-		i++;
+		y++;
 	}
 
 }
