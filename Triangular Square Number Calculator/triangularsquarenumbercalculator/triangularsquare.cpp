@@ -16,7 +16,7 @@ int addUpto(int n){
 bool isSquare(int x){
 
 	double sqr = sqrt(x);
-	return ((sqr - floor(sqr)) == 0);
+	return ((sqr - floor(sqr)) == 0); //floor function uses highest possible integer value
 }
 //main function 
 
