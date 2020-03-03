@@ -34,3 +34,11 @@ int main(){
 
 }
 
+//returns: 
+/* Square Triangular Number 1 is: 1
+Square Triangular Number 2 is: 36
+Square Triangular Number 3 is: 1225
+Square Triangular Number 4 is: 41616
+Square Triangular Number 5 is: 1413721
+Square Triangular Number 6 is: 48024900
+*/
