@@ -2,9 +2,9 @@
 #include <cmath>
 using namespace std;
 
-const int COUNT=20;
+const int NUM=20;
 
-int addUpto(int n){
+int starter(int n){
 
 	int total=0;  //initialize total to increment the next triangular number
 	for(int i=1; i<=n; i++){
@@ -16,15 +16,15 @@ int addUpto(int n){
 bool isSquare(int x){
 
 	double sqr = sqrt(x);
-	return ((sqr - floor(sqr)) == 0); //floor function uses highest possible integer value
+	return ((sqr - floor(sqr)) == 0); //floor function will calculate highest possible integer value
 }
 //main function 
 
 int main(){
-	int inc = 1;
+	int inc = 1; //increment 
 	int y=1;
-	while(inc<=COUNT){
-		int total = addUpto(y);
+	while(inc<=NUM){        
+		int total = starter(y);
 		if(isSquare(total)){
 			cout << "Square Triangular Number " << inc << " is: "<< total <<endl;
 			inc+=1;
