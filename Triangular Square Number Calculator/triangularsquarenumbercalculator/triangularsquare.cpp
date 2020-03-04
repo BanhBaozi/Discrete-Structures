@@ -2,18 +2,18 @@
 #include <cmath>
 using namespace std;
 
-const int NUM=20;
+const int NUM=20; //'trying' up to 20 numbers
 
 int starter(int n){
 
 	int total=0;  //initialize total to increment the next triangular number
-	for(int i=1; i<=n; i++){
+	for(int i=1; i<=n; i++){ //(n(n+1))/2
 		total+=i;
-		}
+	}
 	return total;
 }
 
-bool isSquare(int x){
+bool isSquare(int x){ //representing x^2
 
 	double sqr = sqrt(x);
 	return ((sqr - floor(sqr)) == 0); //floor function will calculate highest possible integer value
