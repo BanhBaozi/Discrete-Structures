@@ -13,7 +13,7 @@ int starter(int n){
 	return total;
 }
 
-bool isSquare(int x){ //representing x^2
+bool isSquare(int x){ //representing x^2 and x^2-2*(2x)^2
 
 	double sqr = sqrt(x);
 	return ((sqr - floor(sqr)) == 0); //floor function will calculate highest possible integer value
