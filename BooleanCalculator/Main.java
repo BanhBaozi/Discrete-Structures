@@ -29,11 +29,13 @@ public class Main
 
     public static int printMenu()
     {
+        System.out.println("--------------------------------------------------------------");
         System.out.println( "Please select a number from the menu." );
         System.out.println( "1 - Commutative Law" );
         System.out.println( "2 - Distributive Law" );
         System.out.println( "3 - Associative Law" );
         System.out.println( "4 - Quit" );
+        System.out.println("--------------------------------------------------------------");
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         try{
@@ -95,6 +97,7 @@ public class Main
         System.out.println("Does " + xString + yString + " = " + yString + xString + "?");
         System.out.println(result2);
         System.out.println("They are both correct " + xString + " + " + yString + "=" + yString + " + " + xString + " and " + xString + yString + " = " + yString + xString );
+        System.out.println("--------------------------------------------------------------");
 
         System.exit(0);
     }
@@ -166,6 +169,8 @@ public class Main
         System.out.println("They are both correct "+ xString + "+" + yString + zString + "=("  + xString + yString + ")(" + xString + zString + ") and " +
                         xString + "(" + yString + "+" + zString + ")="  + xString + yString + "+" + xString + zString
                 );
+        System.out.println("--------------------------------------------------------------");
+
         System.exit(0);
 
     }
@@ -216,6 +221,8 @@ public class Main
         System.out.println("Does " + xString + "(" + xString + " + " + yString + ")" + "=" + xString + "?");
         System.out.println(result2);
         System.out.println("They are both correct " + xString + " + (" + xString + yString + ")=" + xString + " and " + xString + "(" + xString + " + " + yString + ")" + "=" + xString);
+        System.out.println("--------------------------------------------------------------");
+
         System.exit(0);
     }
 }
