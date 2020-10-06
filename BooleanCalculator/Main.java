@@ -33,7 +33,7 @@ public class Main
         System.out.println( "Please select a number from the menu." );
         System.out.println( "1 - Commutative Law" );
         System.out.println( "2 - Distributive Law" );
-        System.out.println( "3 - Associative Law" );
+        System.out.println( "3 - Absorption Law" );
         System.out.println( "4 - Quit" );
         System.out.println("--------------------------------------------------------------");
 
