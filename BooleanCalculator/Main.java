@@ -47,7 +47,7 @@ public class Main
         }
     }
 
-    public static int commutativeLaw()
+    public static void commutativeLaw()
     {
         Scanner input = new Scanner(System.in);
         System.out.println("You have entered for Commutative Law\n");
@@ -95,7 +95,8 @@ public class Main
         System.out.println("Does " + xString + yString + " = " + yString + xString + "?");
         System.out.println(result2);
         System.out.println("They are both correct " + xString + " + " + yString + "=" + yString + " + " + xString + " and " + xString + yString + " = " + yString + xString );
-        return 0;
+
+        System.exit(0);
     }
 
     public static void distributiveLaw()
@@ -165,7 +166,7 @@ public class Main
         System.out.println("They are both correct "+ xString + "+" + yString + zString + "=("  + xString + yString + ")(" + xString + zString + ") and " +
                         xString + "(" + yString + "+" + zString + ")="  + xString + yString + "+" + xString + zString
                 );
-
+        System.exit(0);
 
     }
 
@@ -215,6 +216,6 @@ public class Main
         System.out.println("Does " + xString + "(" + xString + " + " + yString + ")" + "=" + xString + "?");
         System.out.println(result2);
         System.out.println("They are both correct " + xString + " + (" + xString + yString + ")=" + xString + " and " + xString + "(" + xString + " + " + yString + ")" + "=" + xString);
-
+        System.exit(0);
     }
 }
